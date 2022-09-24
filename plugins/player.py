@@ -144,7 +144,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "/ytp"])
+    command(["play", "p", "fuck"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -154,7 +154,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 sᴇᴀʀᴄʜɪɴɢ...**")
+    lel = await message.reply("» ᴘʀᴏᴄᴇssɪɴɢ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎")
    
     bsdk = message.from_user.mention
 
