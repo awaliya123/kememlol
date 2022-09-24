@@ -8,7 +8,7 @@ que = {}
 admins = {}
 
 API_ID = int(getenv("API_ID"))
-API_HASH =79554098746a63dadd45d7176bed5ede get
+API_HASH = getenv("API_HASH")
 BOT_USERNAME =ASTRONOT getenv("ASTRONOT")
 BOT_TOKEN =5776724856:AAEwhUjnkC8gavhUB9i7Wp14R4CHUJ1rw5g getenv("5776724856:AAEwhUjnkC8gavhUB9i7Wp14R4CHUJ1rw5g")
 DURATION_LIMIT =700 int(getenv("DURATION_LIMIT", "700"))
